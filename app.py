@@ -226,7 +226,7 @@ def call_gemini(dados: dict) -> dict:
         raise ValueError("GEMINI_API_KEY não configurada nos Secrets.")
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-3.5-flash")
 
     prompt = f"""
 Você é um especialista sênior em avaliação de maturidade em Inteligência Artificial.
