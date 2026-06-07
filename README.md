@@ -82,51 +82,6 @@ Cada formulário tem no máximo **4 perguntas de Sim ou Não** — o formato mai
 
 ---
 
-## Rodando localmente
-
-**1. Clone o repositório**
-
-```bash
-git clone https://github.com/seu-usuario/ia-maturity-check.git
-cd ia-maturity-check
-```
-
-**2. Instale as dependências**
-
-```bash
-pip install -r requirements.txt
-```
-
-**3. Configure a chave da API**
-
-```bash
-export ANTHROPIC_API_KEY="sk-ant-..."
-```
-
-**4. Rode a aplicação**
-
-```bash
-streamlit run app.py
-```
-
-Acesse em `http://localhost:8501`
-
----
-
-## Deploy no Streamlit Cloud
-
-1. Faça push do projeto para um repositório GitHub
-2. Acesse [share.streamlit.io](https://share.streamlit.io) e conecte o repositório
-3. Em **Settings → Secrets**, adicione:
-
-```toml
-ANTHROPIC_API_KEY = "sk-ant-..."
-```
-
-4. Deploy automático — a aplicação fica disponível em URL pública
-
----
-
 ## Estrutura do projeto
 
 ```
