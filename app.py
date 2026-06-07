@@ -204,6 +204,19 @@ hr {
     border-top: 1px solid #1e1e2e;
     margin: 2rem 0;
 }
+
+/* Esconder header e footer padrão do Streamlit */
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}
+
+#MainMenu {
+    display: none !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
