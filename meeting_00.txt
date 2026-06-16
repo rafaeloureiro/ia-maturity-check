@@ -1,0 +1,12 @@
+tecnologias que otimizam a capacidade cognitiva;
+score que traga análise de letramento de IA;
+Prontid~~ao para fuutro;
+três dimensões: trajetória profissional, letramento de IA e capacidade humana
+score e próximos passos para desenvolvimento das habilidades com IA
+lifelong learning em IA
+criava uma ferramenta que lia a trajetória profissional da pessoa 
+score que chama-se big 5
+não é essencial ter um scrapping de todos os cursos do mercado
+login individual x gestor x admin
+admin: quantos usuários únicos, quantos usuários terminaram, resultados individuais
+gasto com ia, performance da página,
